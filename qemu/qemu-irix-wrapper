@@ -7,4 +7,4 @@ export QEMU_RESERVED_VA=1280M
 export QEMU_LD_PREFIX=$IRIX_ROOT
 export QEMU_SET_ENV=LANG=C
 
-exec qemu-irix -0 $a0 $ex "$@"
+exec /usr/bin/qemu-irix -0 $a0 $ex "$@"
